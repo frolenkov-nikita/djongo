@@ -93,7 +93,7 @@ if sys.version_info.major == 3 and sys.version_info.minor < 7:
 
 setup(
     name='djongo',
-    version=find_version("djongo", "__init__.py"),
+    version=find_version("djongo", "djongo", "__init__.py"),
     include_package_data=True,
     packages=packages,
     url='https://www.djongomapper.com/',
